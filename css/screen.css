@@ -189,7 +189,7 @@ a:focus {
 }
 
 .o-container {
-    align-items: center;
+    margin:auto;
     max-width: 90em;
 }
 
