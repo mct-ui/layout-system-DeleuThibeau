@@ -161,11 +161,37 @@ a:focus {
   #OBJECTS
 \*------------------------------------*/
 
-/*
-    Object: Object name
-    ---
-    Object description
-*/
+
+
+
+.o-row {
+    padding:24px 24px 0;
+    display: flow-root;
+    
+}
+
+.o-row--primary {
+    background: orange;
+    color: white;
+    
+}
+
+.o-row--dark {
+    background: darkgrey;
+    color: white;
+    
+}
+
+@media (min-width: 768px) {
+    .o-row--lg {
+        padding:48px 48px 0;
+    }
+}
+
+.o-container {
+    align-items: center;
+    max-width: 90em;
+}
 
 /*------------------------------------*\
   #COMPONENTS
